@@ -44,8 +44,8 @@ class ColdFusion:
             if not os.access(cfstat, os.X_OK):
                 self.checks_logger.error('ColdFusion: The location of cfstat '
                                          'given in config (%s) either does '
-                                         'not '
-                                         'exist or is not executable' % cfstat)
+                                         'not exist or is not executable'
+                                         % cfstat)
                 return False
             else:
                 self.checks_logger.debug('ColdFusion: Using cfstat defined in '
