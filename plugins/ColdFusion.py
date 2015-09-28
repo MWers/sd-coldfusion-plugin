@@ -1,3 +1,9 @@
+"""
+  Server Density Plugin
+  ColdFusion stats
+  https://github.com/MWers/sd-coldfusion-plugin/
+  Version: 1.0.1
+"""
 import os
 import platform
 import subprocess
