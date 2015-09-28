@@ -2,7 +2,7 @@
   Server Density Plugin
   ColdFusion stats
   https://github.com/MWers/sd-coldfusion-plugin/
-  Version: 1.0.1
+  Version: 1.0.2
 """
 import os
 import platform
@@ -11,7 +11,7 @@ import subprocess
 
 class ColdFusion:
     sd_cfstat_opt = 'coldfusion_cfstat_path'
-    cfstat_locations = ['/opt/coldfusion11/bin/cfstat',
+    cfstat_locations = ['/opt/ColdFusion11/bin/cfstat',
                         '/opt/coldfusion10/bin/cfstat',
                         '/opt/ColdFusion9/bin/cfstat',
                         '/opt/coldfusion8/bin/cfstat',
